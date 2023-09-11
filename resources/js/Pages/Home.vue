@@ -1,7 +1,6 @@
 <script setup>
 import { onMounted } from "vue"
 import { Head } from '@inertiajs/vue3'
-import '../../css/custom.css';
 import { greeting } from "../custom.js";
 
 onMounted(() => {
@@ -20,3 +19,7 @@ onMounted(() => {
 
     <footer>ääääöööö</footer>
 </template>
+
+<style scoped>
+@import "../../css/custom.css";
+</style>

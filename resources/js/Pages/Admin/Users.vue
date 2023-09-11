@@ -1,7 +1,6 @@
 <script setup>
 import { onMounted } from "vue"
 import { Head } from '@inertiajs/vue3'
-import '../../../css/admin.css';
 import { greeting } from "../../admin.js";
 
 onMounted(() => {
@@ -15,7 +14,7 @@ onMounted(() => {
     </Head>
 
     <header>Users</header>
-    
+
     <section>
         <ul>
             <li>User 1</li>
@@ -29,3 +28,7 @@ onMounted(() => {
 
     <footer>ääääöööö</footer>
 </template>
+
+<style scoped>
+@import "../../../css/admin.css";
+</style>
