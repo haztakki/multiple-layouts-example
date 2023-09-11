@@ -1,0 +1,24 @@
+body {
+    background: lightyellow;
+    border: 20px solid red;
+}
+
+header {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: white;
+    background: red;
+}
+
+section {
+    font-size: 2rem;
+    color: black;
+    border: 2px solid black;
+}
+
+footer {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: white;
+    background: red;
+}

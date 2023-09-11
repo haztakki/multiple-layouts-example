@@ -1,0 +1,23 @@
+body {
+    background: lightyellow;
+}
+
+header {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: white;
+    background: blue;
+}
+
+section {
+    font-size: 2rem;
+    color: black;
+    border: 2px solid black;
+}
+
+footer {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: white;
+    background: blue;
+}
